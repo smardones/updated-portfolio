@@ -2,10 +2,10 @@ import React from 'react';
 
 function Project() {
     const projects = [
-        {
-            name: "Animal Crossing Museum Tracker",
-            url: "https://sheltered-forest-35745.herokuapp.com/"
-        }
+        // {
+        //     name: "Animal Crossing Museum Tracker",
+        //     url: "https://sheltered-forest-35745.herokuapp.com/"
+        // },
         {
             name: "Project Gemini",
             url: "https://codyrobbins99.github.io/project-gemini-forecast/index.html"
@@ -39,7 +39,7 @@ function Project() {
             {projects.map((project) => (
                 <a href={project.url} key={project.name}>
                     <img
-                    src={require(`../../assets/images/${project.name.replace(/\s/g, '')}.png`)}
+                    src={require(`../assets/images/${project.name.replace(/\s/g, '')}.png`)}
                     alt={project.name}
                     className="project-img"
                     key={project.name}
