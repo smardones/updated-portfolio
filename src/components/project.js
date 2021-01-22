@@ -3,6 +3,10 @@ import React from 'react';
 function Project() {
     const projects = [
         {
+            name: "Animal Crossing Museum Tracker",
+            url: "https://sheltered-forest-35745.herokuapp.com/"
+        }
+        {
             name: "Project Gemini",
             url: "https://codyrobbins99.github.io/project-gemini-forecast/index.html"
         },
