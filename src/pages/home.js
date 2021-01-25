@@ -5,16 +5,25 @@ function Home() {
     return (
         <section className="homeContainer">
             <div className="jumbotron">
-                <span className="hero-banner">Hi, I'm <em>Shaun</em> and I'm a <em>Full Stack Web Developer</em></span>
+                <p className="hero-banner">Hi, I'm <em>Shaun</em> and I'm a <em>Full Stack Web Developer</em></p>
             </div>
-            <div className="link" id="aboutlink">
-                <span className="link-title">About Me</span>
+            <div className="link-panel" id="aboutlink">
+                <a href="/about">
+                    <span className="link"></span>
+                </a>
+                <p className="link-title">About Me</p>
             </div>
-            <div className="link" id="worklink">
-                <span className="link-title">Projects</span>
+            <div className="link-panel" id="worklink">
+                <a href="/projects">
+                    <span className="link"></span>
+                </a>
+                <p className="link-title">Projects</p>
             </div>
-            <div className="link" id="contactlink">
-                <span className="link-title">Contact Me</span>
+            <div className="link-panel" id="contactlink">
+                <a href="/contact">
+                    <span className="link"></span>
+                </a>
+                <p className="link-title">Contact Me</p>
             </div>
         </section>
     )
