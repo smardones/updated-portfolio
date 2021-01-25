@@ -34,7 +34,7 @@ function ContactForm() {
         console.log(formState);
     }
     return (
-    <div>
+    <div className="page-body">
         <h1>Contact Me</h1>
         <form id="contact-form" onSubmit={handleSubmit}>
             <div>

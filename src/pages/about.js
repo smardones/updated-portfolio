@@ -1,10 +1,13 @@
 import React from 'react';
 import self from '../assets/images/self.jpg';
+import Nav from '../components/nav';
 
 
 function About() {
     return(
-        <section>
+        <section className="page-body">
+            <Nav />
+
             <h2 className="section-title">About Me</h2>
             <div className="about-wrapper">
                 

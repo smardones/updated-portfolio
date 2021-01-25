@@ -25,11 +25,6 @@ function Project() {
             photo: runPhoto
         },
         {
-            name: "Pair Pro",
-            url: "https://evening-shelf-38157.herokuapp.com/",
-            photo: pairPhoto
-        },
-        {
             name: "Food Festival",
             url: "https://smardones.github.io/food-festival/",
             photo: foodPhoto
@@ -49,17 +44,22 @@ function Project() {
     return(
         <div>
         <h2>Projects</h2>
-        <div className="projects-container">
-            {projects.map((project) => (
-                <a href={project.url} key={project.name}>
-                    <img
-                    src={project.photo}
-                    alt={project.name}
-                    className="project-img"
-                    key={project.name}
-                    />
-                </a>
-            ))}
+        <div className="project-grid-container">
+            <div className="projects-container">
+                {projects.map((project) => (
+                    <a className="card" href={project.url} key={project.name}>
+                        <img
+                        src={project.photo}
+                        alt={project.name}
+                        className="project-img"
+                        key={project.name}
+                        />
+                        <div class="card-container">
+                            <h4><b>{project.name}</b></h4>
+                        </div>
+                    </a>
+                ))}
+            </div>
         </div>
     </div>
     )
