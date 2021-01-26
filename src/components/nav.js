@@ -9,10 +9,10 @@ function Nav() {
 
     return(
         <nav>
+            <a href="/"><h1>Shaun Mardones</h1></a>
             <ul className="tab-list">
-                <a href="/"><h1>Shaun Mardones</h1></a>
                 {navOptions.map((option) => (
-                    <li key={option} className="tab" sm={12} md={6} lg={4}>
+                    <li key={option} className="tab">
                         <a href={`/${option}`}>
                             {option}
                         </a>

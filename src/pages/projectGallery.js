@@ -5,7 +5,7 @@ import Nav from '../components/nav';
 function ProjectGallery() {
 
     return(
-        <section>
+        <section className="page-body"> 
             <Nav />
             <Project />
         </section>

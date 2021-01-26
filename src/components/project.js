@@ -12,32 +12,38 @@ function Project() {
         {
             name: "Animal Crossing Museum Tracker",
             url: "https://sheltered-forest-35745.herokuapp.com/",
-            photo: ACphoto
+            photo: ACphoto,
+            technologies: "React, MongoDB, Redux"
         },
         {
             name: "Project Gemini",
             url: "https://codyrobbins99.github.io/project-gemini-forecast/index.html",
-            photo: geminiPhoto
+            photo: geminiPhoto,
+            technologies: "JavaScript, HTML5, CSS"
         },
         {
             name: "Run Buddy",
             url: "https://smardones.github.io/run-buddy/",
-            photo: runPhoto
+            photo: runPhoto,
+            technologies: "HTML5, CSS"
         },
         {
             name: "Food Festival",
             url: "https://smardones.github.io/food-festival/",
-            photo: foodPhoto
+            photo: foodPhoto,
+            technologies: "Javascript, React"
         },
         {
             name: "Note Taker",
             url: "https://shady-cheetah.herokuapp.com/notes",
-            photo: notePhoto
+            photo: notePhoto,
+            technologies: "Javascript"
         },
         {
             name: "Weather Dashboard",
             url: "https://smardones.github.io/weatherapp/",
-            photo: weatherPhoto
+            photo: weatherPhoto,
+            technologies: "Javascripts"
         }
     ];
 
@@ -55,7 +61,8 @@ function Project() {
                         key={project.name}
                         />
                         <div class="card-container">
-                            <h4><b>{project.name}</b></h4>
+                            <h4 className="project-name"><b>{project.name}</b></h4>
+                            <p className="technologies">{project.technologies}</p>
                         </div>
                     </a>
                 ))}

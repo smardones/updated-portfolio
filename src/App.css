@@ -4,8 +4,13 @@
   margin: 0;
 }
 
+
 a {
   color: inherit;
+}
+
+.page-body {
+  min-height: 100vh;
 }
 
 /* Home page */
@@ -81,11 +86,24 @@ a {
 
 /* Nav */
 
-.tab-list {
+nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  background-color: #003759;
+  justify-content: space-around;
+  
+}
+
+nav a h1{
+  font-size: 2.5rem;
+}
+
+.tab-list {
   font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
 }
 
 a {
@@ -115,22 +133,27 @@ a {
 
 .project-img {
   width: 100%;
-  object-fit: fill;
+  object-fit: cover;
   height: 75%;
   border-bottom: solid 1px;
   border-color: #003759
 }
 
+
+
+
 .card {
-  /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  background-color: #F1DBC8;
+  background-color: white;
+  height: 20em;
 }
 
-/* On mouse-over, add a deeper shadow */
+
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: #ff715b;
+
 }
 
 /* Add some padding inside the card container */
@@ -139,3 +162,19 @@ a {
 }
 
 
+/* Media Queries */
+
+@media screen and (max-width:980px) {
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template: repeat(3, 1fr)
+  }
+}
+
+@media screen and (max-width:640px) {
+  
+  .projects-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 1fr);
+  }
+}
