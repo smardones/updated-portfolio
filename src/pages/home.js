@@ -11,7 +11,7 @@ function Home() {
                 <a href="/about">
                     <span className="link"></span>
                 </a>
-                <p className="link-title">About Me</p>
+                <p className="link-title about-link">About Me</p>
             </div>
             <div className="link-panel" id="worklink">
                 <a href="/projects">

@@ -1,12 +1,12 @@
 import React from 'react';
 import self from '../assets/images/self.jpg';
-import Nav from '../components/nav';
+import Header from '../components/header';
 
 
 function About() {
     return(
         <section className="page-body">
-            <Nav />
+            <Header />
 
             <h2 className="section-title">About Me</h2>
             <div className="about-wrapper">

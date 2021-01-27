@@ -2,11 +2,21 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  color: #003759
 }
 
 
 a {
   color: inherit;
+}
+
+h2 {
+  font-size: 2em;
+  padding: 15px;
+  width: 50%;
+  text-align: center;
+  margin: 30px auto;
+  border-bottom: solid #003759;
 }
 
 .page-body {
@@ -40,6 +50,10 @@ a {
   margin-right: 50%;
   background-color: #F1DBC8;
   
+}
+
+.about-link {
+  color: #F1DBC8;
 }
 
 .link {
@@ -84,25 +98,28 @@ a {
   font-size: 30px;
 }
 
-/* Nav */
+/* Header & Nav */
 
-nav {
+header {
   display: flex;
-  flex-direction: row;
-  background-color: #003759;
   justify-content: space-around;
-  
+  background-color: #7BC0C3;
+  flex-wrap: wrap;
+  height: 100px;
+  align-items: center;
 }
 
-nav a h1{
-  font-size: 2.5rem;
+header h1 {
+  font-size: 2.5em;
 }
 
 .tab-list {
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  min-width: 400px;
+  
   
 }
 
@@ -156,10 +173,32 @@ a {
 
 }
 
-/* Add some padding inside the card container */
 .card-container {
   padding: 2px 16px;
 }
+
+/* About Section */
+
+.about-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.self-portrait {
+  margin: 10px;
+  width: 25%;
+  min-width: 300px;
+  height: auto;
+  border: solid black 1px;
+}
+
+.about-wrapper p {
+  margin: 10px;
+  display: inline;
+  width: 60%;
+}
+
 
 
 /* Media Queries */
@@ -178,3 +217,9 @@ a {
     grid-template-rows: repeat(7, 1fr);
   }
 }
+
+.about-wrapper p {
+  width: 80%;
+}
+
+

@@ -48,7 +48,7 @@ function Project() {
     ];
 
     return(
-        <div>
+        <div className="page-body">
         <h2>Projects</h2>
         <div className="project-grid-container">
             <div className="projects-container">
