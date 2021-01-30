@@ -203,7 +203,6 @@ a {
   margin: 10px;
   width: 25%;
   min-width: 300px;
-  height: auto;
   border: solid black 1px;
 }
 
@@ -214,7 +213,6 @@ a {
 }
 
 /* Resume */
-
 
 .resume-body {
   width: 80%;
