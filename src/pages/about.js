@@ -1,6 +1,7 @@
 import React from 'react';
 import self from '../assets/images/self.jpg';
 import Header from '../components/header';
+import Footer from '../components/footer';
 
 
 function About() {
@@ -16,6 +17,7 @@ function About() {
 
                     Vestibulum commodo nisl vel purus tincidunt lobortis. Fusce tincidunt tristique quam, quis imperdiet justo semper ac. Curabitur molestie mi elit, eget faucibus sapien bibendum in. Integer fermentum sollicitudin dolor et hendrerit. Mauris tincidunt venenatis dui at euismod. Nam dapibus euismod nisi, ut scelerisque purus suscipit quis. Quisque ultricies arcu sodales, tincidunt justo eget, egestas diam. Integer ultrices faucibus est, ultricies bibendum ante gravida at. Maecenas tincidunt mauris sit amet augue dapibus placerat. In nisl metus, porta dictum dignissim sit amet, dapibus quis felis.</p>
             </div>
+            <Footer />
         </section>
     )
 }

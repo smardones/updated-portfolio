@@ -4,7 +4,7 @@ function Nav() {
     const navOptions = [
        "About",
        "Projects",
-       "Contact" 
+       "Resume" 
     ];
 
     return(

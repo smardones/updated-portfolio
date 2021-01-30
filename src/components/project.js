@@ -2,7 +2,6 @@ import React from 'react';
 import ACphoto from '../assets/images/AnimalCrossingMuseumTracker.png';
 import foodPhoto from '../assets/images/FoodFestival.png';
 import notePhoto from '../assets/images/NoteTaker.png';
-import pairPhoto from '../assets/images/PairPro.png';
 import geminiPhoto from '../assets/images/ProjectGemini.png';
 import runPhoto from '../assets/images/RunBuddy.png';
 import weatherPhoto from '../assets/images/WeatherDashboard.png';
@@ -60,7 +59,7 @@ function Project() {
                         className="project-img"
                         key={project.name}
                         />
-                        <div class="card-container">
+                        <div className="card-container">
                             <h4 className="project-name"><b>{project.name}</b></h4>
                             <p className="technologies">{project.technologies}</p>
                         </div>
@@ -68,6 +67,7 @@ function Project() {
                 ))}
             </div>
         </div>
+        
     </div>
     )
 }

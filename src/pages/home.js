@@ -3,7 +3,7 @@ import React from 'react';
 
 function Home() {
     return (
-        <section className="homeContainer">
+        <section className="home-container">
             <div className="jumbotron">
                 <p className="hero-banner">Hi, I'm <em>Shaun</em> and I'm a <em>Full Stack Web Developer</em></p>
             </div>
@@ -20,10 +20,10 @@ function Home() {
                 <p className="link-title">Projects</p>
             </div>
             <div className="link-panel" id="contactlink">
-                <a href="/contact">
+                <a href="/resume">
                     <span className="link"></span>
                 </a>
-                <p className="link-title">Contact Me</p>
+                <p className="link-title">Resume &amp; Contact</p>
             </div>
         </section>
     )
