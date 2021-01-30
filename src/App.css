@@ -203,6 +203,7 @@ a {
   margin: 10px;
   width: 25%;
   min-width: 300px;
+  object-fit: cover;
   border: solid black 1px;
 }
 
