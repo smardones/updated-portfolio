@@ -42,7 +42,7 @@ function Project() {
             name: "Weather Dashboard",
             url: "https://smardones.github.io/weatherapp/",
             photo: weatherPhoto,
-            technologies: "Javascripts"
+            technologies: "Javascript"
         }
     ];
 

@@ -203,7 +203,6 @@ a {
   margin: 10px;
   width: 25%;
   min-width: 300px; 
-  min-height: 250px;
   border: solid black 1px;
 }
 
@@ -292,10 +291,16 @@ h3 {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 1fr);
   }
+
+  .self-portrait {
+    height: 300px;
+  }
 }
 
 .about-wrapper p {
   width: 80%;
 }
+
+
 
 
