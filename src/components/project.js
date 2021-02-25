@@ -11,36 +11,42 @@ function Project() {
         {
             name: "Animal Crossing Museum Tracker",
             url: "https://sheltered-forest-35745.herokuapp.com/",
+            github: "https://github.com/smardones/actracker",
             photo: ACphoto,
             technologies: "React, MongoDB, Redux"
         },
         {
             name: "Project Gemini",
             url: "https://codyrobbins99.github.io/project-gemini-forecast/index.html",
+            github: "https://github.com/CodyRobbins99/project-gemini-forecast",
             photo: geminiPhoto,
             technologies: "JavaScript, HTML5, CSS"
         },
         {
             name: "Run Buddy",
             url: "https://smardones.github.io/run-buddy/",
+            github: "https://github.com/smardones/run-buddy",
             photo: runPhoto,
             technologies: "HTML5, CSS"
         },
         {
             name: "Food Festival",
             url: "https://smardones.github.io/food-festival/",
+            github: "https://github.com/smardones/food-festival",
             photo: foodPhoto,
             technologies: "Javascript, React"
         },
         {
             name: "Note Taker",
             url: "https://shady-cheetah.herokuapp.com/notes",
+            github: "https://github.com/smardones/NoteTaker",
             photo: notePhoto,
             technologies: "Javascript"
         },
         {
             name: "Weather Dashboard",
             url: "https://smardones.github.io/weatherapp/",
+            github: "https://github.com/smardones/weatherapp",
             photo: weatherPhoto,
             technologies: "Javascript"
         }
@@ -52,7 +58,7 @@ function Project() {
         <div className="project-grid-container">
             <div className="projects-container">
                 {projects.map((project) => (
-                    <a className="card" href={project.url} key={project.name}>
+                    <div className="card" href={project.url} key={project.name}>
                         <img
                         src={project.photo}
                         alt={project.name}
@@ -63,7 +69,15 @@ function Project() {
                             <h4 className="project-name"><b>{project.name}</b></h4>
                             <p className="technologies">{project.technologies}</p>
                         </div>
-                    </a>
+                        <div className="card-links">
+                            <a href={project.url} className="project-link">
+                                <img></img>
+                            </a>
+                            <a href={project.github} className="project-link">
+                                <img></img>
+                            </a>
+                        </div>
+                    </div>
                 ))}
             </div>
         </div>
