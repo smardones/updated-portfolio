@@ -5,6 +5,8 @@ import notePhoto from '../assets/images/NoteTaker.png';
 import geminiPhoto from '../assets/images/ProjectGemini.png';
 import runPhoto from '../assets/images/RunBuddy.png';
 import weatherPhoto from '../assets/images/WeatherDashboard.png';
+import gitHubIcon from '../assets/icons/GitHub.png';
+import externalLinkIcon from '../assets/icons/ExternalLink.png';
 
 function Project() {
     const projects = [
@@ -71,10 +73,10 @@ function Project() {
                         </div>
                         <div className="card-links">
                             <a href={project.url} className="project-link">
-                                <img></img>
+                                <img src={externalLinkIcon} alt={`Visit ${project.name}`} />
                             </a>
                             <a href={project.github} className="project-link">
-                                <img></img>
+                                <img src={gitHubIcon} />
                             </a>
                         </div>
                     </div>

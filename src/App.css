@@ -157,7 +157,6 @@ a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 80%;
-  height: 400px;
   grid-gap: 10px;
 }
 
@@ -165,7 +164,7 @@ a {
 .project-img {
   width: 100%;
   object-fit: cover;
-  height: 75%;
+  height: 55%;
   border-bottom: solid 1px;
   border-color: #003759
 }
@@ -177,7 +176,7 @@ a {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   background-color: white;
-  height: 20em;
+  
 }
 
 
@@ -189,6 +188,17 @@ a {
 
 .card-container {
   padding: 2px 16px;
+}
+
+.card-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-link img {
+  width: 25px;
+  height: 25px;
 }
 
 /* About Section */
