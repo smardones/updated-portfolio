@@ -11,10 +11,11 @@ import externalLinkIcon from '../assets/icons/ExternalLink.png';
 function Project() {
     const projects = [
         {
-            name: "Animal Crossing Museum Tracker",
+            name: "AC Museum Tracker",
             url: "https://sheltered-forest-35745.herokuapp.com/",
             github: "https://github.com/smardones/actracker",
             photo: ACphoto,
+            description: "test",
             technologies: "React, MongoDB, Redux"
         },
         {
@@ -22,6 +23,7 @@ function Project() {
             url: "https://codyrobbins99.github.io/project-gemini-forecast/index.html",
             github: "https://github.com/CodyRobbins99/project-gemini-forecast",
             photo: geminiPhoto,
+            description:"test",
             technologies: "JavaScript, HTML5, CSS"
         },
         {
@@ -29,6 +31,7 @@ function Project() {
             url: "https://smardones.github.io/run-buddy/",
             github: "https://github.com/smardones/run-buddy",
             photo: runPhoto,
+            description:"test",
             technologies: "HTML5, CSS"
         },
         {
@@ -36,6 +39,7 @@ function Project() {
             url: "https://smardones.github.io/food-festival/",
             github: "https://github.com/smardones/food-festival",
             photo: foodPhoto,
+            description:"test",
             technologies: "Javascript, React"
         },
         {
@@ -43,6 +47,7 @@ function Project() {
             url: "https://shady-cheetah.herokuapp.com/notes",
             github: "https://github.com/smardones/NoteTaker",
             photo: notePhoto,
+            description:"test",
             technologies: "Javascript"
         },
         {
@@ -50,6 +55,7 @@ function Project() {
             url: "https://smardones.github.io/weatherapp/",
             github: "https://github.com/smardones/weatherapp",
             photo: weatherPhoto,
+            description:"test",
             technologies: "Javascript"
         }
     ];
@@ -72,10 +78,10 @@ function Project() {
                             <p className="technologies">{project.technologies}</p>
                         </div>
                         <div className="card-links">
-                            <a href={project.url} className="project-link">
+                            <a href={project.url} className="project-link hvr-radial-out">
                                 <img src={externalLinkIcon} alt={`Visit ${project.name}`} />
                             </a>
-                            <a href={project.github} className="project-link">
+                            <a href={project.github} className="project-link hvr-radial-out">
                                 <img src={gitHubIcon} />
                             </a>
                         </div>
