@@ -10,7 +10,7 @@ function Nav() {
     return(
             <ul className="tab-list">
                 {navOptions.map((option) => (
-                    <li key={option} className="tab">
+                    <li key={option} className="tab hvr-radial-out">
                         <a href={`/${option}`}>
                             {option}
                         </a>
