@@ -1,6 +1,6 @@
 import React from 'react';
 import ACphoto from '../assets/images/AnimalCrossingMuseumTracker.png';
-import foodPhoto from '../assets/images/FoodFestival.png';
+import ttrPhoto from '../assets/images/TabletopRandomizer.png';
 import notePhoto from '../assets/images/NoteTaker.png';
 import geminiPhoto from '../assets/images/ProjectGemini.png';
 import runPhoto from '../assets/images/RunBuddy.png';
@@ -35,12 +35,12 @@ function Project() {
             technologies: "HTML5, CSS"
         },
         {
-            name: "Food Festival",
-            url: "https://smardones.github.io/food-festival/",
-            github: "https://github.com/smardones/food-festival",
-            photo: foodPhoto,
+            name: "Tabletop Randomizer",
+            url: "http://agile-inlet-31690.herokuapp.com/",
+            github: "https://github.com/smardones/tabletoprandomizer",
+            photo: ttrPhoto,
             description:"test",
-            technologies: "Javascript, React"
+            technologies: "SQL, MySQL, React, Node, Expressjs"
         },
         {
             name: "Note Taker",
