@@ -1,7 +1,7 @@
 import React from 'react';
 import ACphoto from '../assets/images/AnimalCrossingMuseumTracker.png';
 import ttrPhoto from '../assets/images/TabletopRandomizer.png';
-import notePhoto from '../assets/images/NoteTaker.png';
+import planetPhoto from '../assets/images/OVScreen.PNG';
 import geminiPhoto from '../assets/images/ProjectGemini.png';
 import runPhoto from '../assets/images/RunBuddy.png';
 import weatherPhoto from '../assets/images/WeatherDashboard.png';
@@ -17,6 +17,14 @@ function Project() {
             photo: ACphoto,
             description: "test",
             technologies: "React, MongoDB, Redux"
+        },
+        {
+            name: "The Planets - Planet Explorer",
+            url: "https://whispering-stream-58778.herokuapp.com/",
+            github: "https://github.com/smardones/planetexplorer",
+            photo: planetPhoto,
+            description:"test",
+            technologies: "React, JavaScript, HTML5, CSS"
         },
         {
             name: "Project Gemini",
@@ -41,14 +49,6 @@ function Project() {
             photo: ttrPhoto,
             description:"test",
             technologies: "SQL, MySQL, React, Node, Expressjs"
-        },
-        {
-            name: "Note Taker",
-            url: "https://shady-cheetah.herokuapp.com/notes",
-            github: "https://github.com/smardones/NoteTaker",
-            photo: notePhoto,
-            description:"test",
-            technologies: "Javascript"
         },
         {
             name: "Weather Dashboard",
